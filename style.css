@@ -1,12 +1,11 @@
 :root{/* CSS HEX */
---canary-yellow: #f2f230ff;
---deep-mocha: #483d3fff;
---blue-bell: #058ed9ff;
---dust-grey: #eadedaff;
---neon-ice: #30f2f2ff;}
+     --canary-yellow: #f2f230ff;
+     --deep-mocha: #483d3fff;
+     --blue-bell: #058ed9ff;
+     --dust-grey: #eadedaff;
+     --neon-ice: #30f2f2ff;}
 body{
     background-color: var(--blue-bell);
-    
 }
 
 *{
@@ -46,7 +45,6 @@ body{
     border-radius: 100px;
     outline: 5px solid red;
     outline-offset: 2px;
-
 }
 .hero {
     display: flex;
@@ -55,9 +53,12 @@ body{
     margin: 35px;
 }
 .contant a{
- text-decoration:none ;
- color: black;
-background-color: var(--canary-yellow);
-padding: 5px;
-border-radius: 10px;
+     text-decoration:none ;
+     color: black;
+     background-color: var(--canary-yellow);
+     padding: 5px;
+     border-radius: 10px;
+}
+.جاد{
+    padding: 20px;
 }
